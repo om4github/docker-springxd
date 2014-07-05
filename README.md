@@ -31,3 +31,21 @@ docker image.
 ```
 server-unknown:>
 ```
+
+## Management URLs
+
+```
+/management/beans
+/management/metrics/{name:.*}]
+/management/metrics
+/management/env/{name:.*}
+/management/env
+/management/info
+/management/jolokia/**
+/management/mappings
+/management/dump
+/management/health
+/management/trace
+/management/autoconfig
+/management/configprops
+```
