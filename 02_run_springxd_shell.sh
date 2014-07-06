@@ -7,12 +7,6 @@ IP=`echo $(ifconfig eth0 | awk -F: '/inet addr:/ {print $2}' | awk '{ print $1 }
 
 URL="http://$IP:9393/"
 
-echo "Waiting for Spring XD Single Node to respond."
-until $(curl --output /dev/null --silent --head --fail $URL); do
-    printf '.'
-    sleep 5
-done
-
 echo ""
 echo "Connect to the Spring XD Single Node using 'admin config server http://$IP:9393'"
 echo ""
