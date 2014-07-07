@@ -16,4 +16,4 @@ done
 echo ""
 echo "HOST IP: $IP"
 echo ""
-docker run --name=springxd-bash -i -t $USER/springxd:1.0.0.M7 /bin/bash
+docker run --name=springxd-bash -i -t medined/springxd:1.0.0.M7 /bin/bash
