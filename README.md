@@ -58,7 +58,7 @@ Of course, you can run the image yourself using a command like this:
 ```
 docker run --name=springxd-shell \
   -i \
-  -t medined/springxd:1.0.0.M7 \
+  -t medined/docker-springxd:1.0.0.M7 \
   /spring-xd-1.0.0.M7/shell/bin/xd-shell
 ``` 
 
@@ -76,7 +76,7 @@ The script wraps the following
 ```
 docker run --name=springxd-bash \
   -i \
-  -t medined/springxd:1.0.0.M7 \
+  -t medined/docker-springxd:1.0.0.M7 \
   /bin/bash
 ```
 
