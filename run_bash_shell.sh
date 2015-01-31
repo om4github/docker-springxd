@@ -16,4 +16,4 @@ done
 echo ""
 echo "HOST IP: $IP"
 echo ""
-docker run --name=springxd-bash -i -t medined/spring-xd-1.1.0.RC1-dist /bin/bash
+docker run --name=springxd-bash -i -t om4github/spring-xd-1.1.0.RC1-dist /bin/bash
