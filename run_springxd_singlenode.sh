@@ -6,7 +6,7 @@ IMAGE_ID=$(docker ps -a | grep "springxd-singlenode" | cut -f1 -d' ')
 # Ports
 # 5555 - Single Node Zookeeper
 # 9393 - String XD Single Node Server
-docker run --name=springxd-singlenode -p 5555:5555 -p 9393:9393 -d -t medined/docker-springxd:1.0.0.M7 /spring-xd-1.0.0.M7/xd/bin/xd-singlenode
+docker run --name=springxd-singlenode -p 5555:5555 -p 9393:9393 -d -t medined/spring-xd-1.1.0.RC1-dist /spring-xd-1.1.0.RC1-dist/xd/bin/xd-singlenode
 
 IP=`echo $(ifconfig eth0 | awk -F: '/inet addr:/ {print $2}' | awk '{ print $1 }')`
 URL="http://$IP:9393"
