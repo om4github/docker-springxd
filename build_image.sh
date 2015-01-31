@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build --rm=true -t medined/docker-springxd:1.0.0.M7 .
+docker build --rm=true -t medined/spring-xd-1.1.0.RC1-dist .
