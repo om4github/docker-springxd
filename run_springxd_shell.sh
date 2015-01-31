@@ -16,4 +16,4 @@ done
 echo ""
 echo "Connect to the Spring XD Single Node using 'admin config server http://$IP:9393'"
 echo ""
-docker run --name=springxd-shell -i -t medined/spring-xd-1.1.0.RC1-dist /spring-xd-1.1.0.RC1-dist/shell/bin/xd-shell
+docker run --name=springxd-shell -i -t om4github/spring-xd-1.1.0.RC1-dist /spring-xd-1.1.0.RC1-dist/shell/bin/xd-shell
